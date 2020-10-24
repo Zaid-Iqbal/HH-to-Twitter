@@ -30,10 +30,10 @@ namespace HH_to_Twitter
         public static void PublishTweet(String msg, String ID)
         {
             Auth.SetUserCredentials(
-               "qXnu7gz9p6CCFSkOmnZrvVwLj",
-               "RewPba42pWihEuTNWXXazNhIHG1prDM6CO3kZX5ZiiTkV1NVAz",
-               "1221234396080017409-pFxnlVAlJv0s30yJ5SdPnbvFaia2U7",
-               "6EJqGZXnNdWvcUC1n890dA5yE8YSHtEuA25h1BE81R3PK");
+               "Auth Key",
+               "Auth Key",
+               "Auth Key",
+               "Auth Key");
             var user = User.GetAuthenticatedUser();
 
             if (msg.Length > 280)
